@@ -27,9 +27,9 @@ public class Spreadsheet {
 			Pattern p = Pattern.compile("-?\\d+");
 			Matcher m = p.matcher(value);
 			while (m.find()){
-				System.out.println("Test " + lenght);
 				lenght++;
 			}
+			System.out.println("Test " + lenght);
 			if(value.length() != lenght){
 				//Error
 				this.value = "#Error";
