@@ -9,9 +9,9 @@ public class SpreadsheetTest {
 	@Test
 	public void test() {
 		Spreadsheet test = new Spreadsheet();
-		test.set("A1", "15k");
+		test.set("A1", "test");
 		String result = test.get("A1");
-		assertEquals("15", result);
+		assertEquals("#Error", result);
 		
 	}
 
