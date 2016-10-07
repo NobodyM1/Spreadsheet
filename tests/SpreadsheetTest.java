@@ -10,7 +10,7 @@ public class SpreadsheetTest {
 	public void test_123_equals_123() {
 		Spreadsheet test = new Spreadsheet();
 		test.set("A1", "123");
-		String result = test.get("A1");
+		Object result = test.get("A1");
 		assertEquals("123", result);
 	}
 	

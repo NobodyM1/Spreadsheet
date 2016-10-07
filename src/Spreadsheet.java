@@ -11,9 +11,9 @@ public class Spreadsheet {
 	HashMap map = new HashMap();
 	
 
-	public String get(String cell) {
+	public Object get(String cell) {
 		
-		String result = (String) map.get(cell);
+		Object result = map.get(cell);
 		
 		return result;
 	}
@@ -39,10 +39,11 @@ public class Spreadsheet {
 			if(value.length() != count2){
 				//Error
 				this.value = "#Error";
-				return;
+			}
+			else{
+				this.value = value;
 			}
 			
-			this.value = value;
 			
 		}
 		else {

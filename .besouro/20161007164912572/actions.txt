@@ -4,3 +4,9 @@ RefactoringAction 1475848401010 Spreadsheet.java ADD import java.util.HashMap IM
 RefactoringAction 1475848502499 Spreadsheet.java REMOVE map FIELD
 RefactoringAction 1475848508015 Spreadsheet.java ADD HashMap map FIELD
 EditAction 1475848740385 Spreadsheet.java 1171 3 9 0
+UnitTestCaseAction 1475848744372 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475848744374 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475848806586 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475848806587 SpreadsheetTest.java FAIL
+CompilationAction 1475848845438 SpreadsheetTest.java
+EditAction 1475848856857 SpreadsheetTest.java 1247 6 24 6
