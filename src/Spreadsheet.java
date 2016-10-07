@@ -30,7 +30,14 @@ public class Spreadsheet {
 				lenght++;
 			}
 			
-			if(value.length() != lenght){
+			int count2 = 0;
+			for (int i = 0, len = value.length(); i < len; i++) {
+			    if (Character.isDigit(value.charAt(i))) {
+			        count2++;
+			    }
+			}
+			
+			if(value.length() != count2){
 				//Error
 				this.value = "#Error";
 				return;
