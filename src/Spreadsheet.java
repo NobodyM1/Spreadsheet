@@ -16,6 +16,7 @@ public class Spreadsheet {
 		if(0 > cell.length() && cell.length() > 2){
 			//Error
 		}
+		
 		Pattern pat = Pattern.compile(" ' ");
 		Matcher mat = pat.matcher(value);
 		int count = 0;
@@ -34,6 +35,11 @@ public class Spreadsheet {
 				//Error
 				this.value = "#Error";
 			}
+			int in = Integer.parseInt(value);
+			if(in == 0){
+				this.value = "#Error";
+			}
+			
 			this.value = value;
 			
 		}
