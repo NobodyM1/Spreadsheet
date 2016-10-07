@@ -11,7 +11,7 @@ public class SpreadsheetTest {
 		Spreadsheet test = new Spreadsheet();
 		test.set("A1", "123");
 		String result = test.get("A1");
-		assertEquals("123", result);
+		assertEquals("test", result);
 		
 	}
 
