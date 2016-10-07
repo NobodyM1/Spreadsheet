@@ -20,9 +20,9 @@ public class Spreadsheet {
 		int count = 0;
 		while (mat.find()){
 			count++;
-			System.out.println("Test " + count);
+			
 		}
-		
+		System.out.println("Test " + count);
 		if(count < 2){
 			//Value must be numbers only
 			Pattern p = Pattern.compile("-?\\d+");
