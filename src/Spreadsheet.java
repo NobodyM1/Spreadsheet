@@ -31,8 +31,8 @@ public class Spreadsheet {
 			}
 			if(value.length() != lenght){
 				//Error
-				System.out.println("Test " + lenght);
 				this.value = "#Error";
+				System.out.println("Test " + this.value);
 			}
 			
 			
