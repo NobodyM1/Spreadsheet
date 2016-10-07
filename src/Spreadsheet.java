@@ -39,7 +39,6 @@ public class Spreadsheet {
 			
 		}
 		else {
-			System.out.println("Test");
 			//Get the value between ''
 			Pattern pattern = Pattern.compile("\'([^\"]*)\'");
 			Matcher matcher = pattern.matcher(value);
