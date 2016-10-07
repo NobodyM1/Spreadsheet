@@ -23,12 +23,12 @@ public class Spreadsheet {
 			
 		}
 		if(count < 2){
-			System.out.println("Test ");
 			//Value must be numbers only
 			Pattern p = Pattern.compile("-?\\d+");
 			Matcher m = p.matcher(value);
 			while (m.find()){
 				lenght++;
+				System.out.println("Test " + lenght);
 			}
 			if(value.length() != lenght){
 				//Error
