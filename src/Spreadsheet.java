@@ -29,6 +29,7 @@ public class Spreadsheet {
 			while (m.find()){
 				lenght++;
 			}
+			System.out.println("Test " + lenght);
 			if(value.length() != lenght){
 				//Error
 				this.value = "#Error";
