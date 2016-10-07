@@ -22,4 +22,11 @@ public class SpreadsheetTest {
 		assertEquals("test", result);
 	}
 
+	@Test
+	public void test_single_quoted_returns_error() {
+		Spreadsheet test = new Spreadsheet();
+		test.set("A1", "'test");
+		String result = test.get("A1");
+		assertEquals("#Error", result);
+	}
 }

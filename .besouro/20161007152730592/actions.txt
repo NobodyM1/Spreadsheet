@@ -181,3 +181,9 @@ RefactoringAction 1475847658962 SpreadsheetTest.java RENAME test_double_quoted_r
 RefactoringAction 1475847661974 SpreadsheetTest.java RENAME test_double_quoted_returns_()=>void test_double_quoted_returns_quoted() METHOD
 RefactoringAction 1475847664486 SpreadsheetTest.java RENAME test_double_quoted_returns_quoted()=>void test_double_quoted_returns_quoted_text() METHOD
 EditAction 1475847675616 SpreadsheetTest.java 475 2 8 2
+UnitTestCaseAction 1475847678315 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847678316 SpreadsheetTest.java OK
+RefactoringAction 1475847685027 SpreadsheetTest.java ADD void test_double_quoted_returns_quoted_text()/2 METHOD
+RefactoringAction 1475847690041 SpreadsheetTest.java RENAME test_double_quoted_returns_quoted_text()/2=>void test_single_quoted_returns_quoted_text() METHOD
+RefactoringAction 1475847695555 SpreadsheetTest.java RENAME test_single_quoted_returns_quoted_text()=>void test_single_quoted_returns_error() METHOD
+EditAction 1475847704996 SpreadsheetTest.java 670 3 12 3
