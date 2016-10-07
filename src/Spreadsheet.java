@@ -25,12 +25,10 @@ public class Spreadsheet {
 		if(count < 2){
 			//Value must be numbers only
 			Pattern p = Pattern.compile("-?\\d+");
-			
 			Matcher m = p.matcher(value);
-			System.out.println("Test " + lenght);
 			while (m.find()){
+				System.out.println("Test " + lenght);
 				lenght++;
-				
 			}
 			if(value.length() != lenght){
 				//Error
