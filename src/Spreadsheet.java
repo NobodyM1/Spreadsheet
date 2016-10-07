@@ -13,9 +13,7 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		int lenght = 0;
-		if(0 > cell.length() && cell.length() > 2){
-			//Error
-		}
+		
 		
 		Pattern pat = Pattern.compile(" ' ");
 		Matcher mat = pat.matcher(value);
