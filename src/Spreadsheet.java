@@ -24,7 +24,7 @@ public class Spreadsheet {
 		
 		if(count < 2){
 			//Value must be numbers only
-			Pattern p = Pattern.compile("-?\\d+");
+			Pattern p = Pattern.compile("\\(\\d+\\)$");
 			Matcher m = p.matcher(value);
 			while (m.find()){
 				lenght++;
