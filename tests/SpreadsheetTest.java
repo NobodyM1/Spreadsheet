@@ -33,7 +33,7 @@ public class SpreadsheetTest {
 	@Test
 	public void test_5A_quoted_returns_error() {
 		Spreadsheet test = new Spreadsheet();
-		test.set("A1", "'5A");
+		test.set("A1", "5A");
 		String result = test.get("A1");
 		assertEquals("#Error", result);
 	}
