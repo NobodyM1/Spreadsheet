@@ -10,7 +10,7 @@ public class SpreadsheetTest {
 	public void test_123_equals_123() {
 		Spreadsheet test = new Spreadsheet();
 		test.set("A1", "123");
-		Object result = test.get("A1");
+		String result = test.get("A1");
 		assertEquals("123", result);
 	}
 	
@@ -18,7 +18,7 @@ public class SpreadsheetTest {
 	public void test_double_quoted_returns_quoted_text() {
 		Spreadsheet test = new Spreadsheet();
 		test.set("A1", "'test'");
-		Object result = test.get("A1");
+		String result = test.get("A1");
 		assertEquals("test", result);
 	}
 

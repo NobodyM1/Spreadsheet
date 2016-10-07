@@ -55,7 +55,7 @@ public class Spreadsheet {
 			}
 		}
 		
-		map.put(cell, value);
+		map.put(this.cell, this.value);
 	}
 	
 	public String evaluate(String cell) {
