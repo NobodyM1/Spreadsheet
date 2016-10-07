@@ -1,0 +1,6 @@
+FileOpenedAction 1475848152777 SpreadsheetTest.java 1247 6 24 6
+RefactoringAction 1475848379844 Spreadsheet.java ADD HashMap<String,String> map FIELD
+RefactoringAction 1475848401010 Spreadsheet.java ADD import java.util.HashMap IMPORT
+RefactoringAction 1475848502499 Spreadsheet.java REMOVE map FIELD
+RefactoringAction 1475848508015 Spreadsheet.java ADD HashMap map FIELD
+EditAction 1475848740385 Spreadsheet.java 1171 3 9 0

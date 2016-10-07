@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -6,10 +7,15 @@ public class Spreadsheet {
 	// Must be pairs, 
 	String cell;
 	String value;
+	
+	HashMap map = new HashMap();
+	
 
 	public String get(String cell) {
-		// to be implemented
-		return value;
+		
+		String result = (String) map.get(cell);
+		
+		return result;
 	}
 	
 	public void set(String cell, String value) {
@@ -47,6 +53,8 @@ public class Spreadsheet {
 				this.value = matcher.group(1);
 			}
 		}
+		
+		map.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {
