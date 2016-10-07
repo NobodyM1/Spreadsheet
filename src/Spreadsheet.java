@@ -24,6 +24,12 @@ public class Spreadsheet {
 			count++;
 		}
 		
+		try{
+			Integer.parseInt(value);
+		}catch(NumberFormatException e){
+			this.value = "#Error";
+		}
+		
 		if(count != 2){
 			//Value must be numbers only
 			Pattern p = Pattern.compile("-?\\d+");
@@ -35,10 +41,8 @@ public class Spreadsheet {
 				//Error
 				this.value = "#Error";
 			}
-			int in = Integer.parseInt(value);
-			if(in == 0){
-				this.value = "#Error";
-			}
+			
+			
 			
 			this.value = value;
 			
