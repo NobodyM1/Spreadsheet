@@ -15,14 +15,14 @@ public class Spreadsheet {
 		int lenght = 0;
 		
 		
-		Pattern pat = Pattern.compile("a");
+		Pattern pat = Pattern.compile("'");
 		Matcher mat = pat.matcher(value);
 		int count = 0;
 		while (mat.find()){
 			count++;
 		}
 		
-		if(count != 2){
+		if(count < 2){
 			//Value must be numbers only
 			Pattern p = Pattern.compile("-?\\d+");
 			Matcher m = p.matcher(value);
