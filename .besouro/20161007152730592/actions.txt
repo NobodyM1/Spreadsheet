@@ -215,3 +215,6 @@ RefactoringAction 1475847889772 SpreadsheetTest.java REMOVE test_Simple_Formulas
 RefactoringAction 1475847889774 SpreadsheetTest.java REMOVE test_double_quoted_returns_quoted_text() METHOD
 RefactoringAction 1475847893289 SpreadsheetTest.java ADD void test_Simple_Formulas() METHOD
 EditAction 1475847893976 SpreadsheetTest.java 1048 1 4 1
+UnitTestCaseAction 1475847896790 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847896792 SpreadsheetTest.java FAIL
+EditAction 1475847937861 SpreadsheetTest.java 1049 1 4 1

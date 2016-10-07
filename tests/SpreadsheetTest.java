@@ -41,7 +41,7 @@ public class SpreadsheetTest {
 	@Test
 	public void test_Simple_Formulas() {
 		Spreadsheet test = new Spreadsheet();
-		test.set("A1", "='test");
+		test.set("A1", "='test'");
 		String result = test.get("A1");
 		assertEquals("test", result);
 	}
