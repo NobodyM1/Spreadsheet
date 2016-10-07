@@ -15,7 +15,7 @@ public class Spreadsheet {
 		int lenght = 0;
 		
 		
-		Pattern pat = Pattern.compile(" ' ");
+		Pattern pat = Pattern.compile("'");
 		Matcher mat = pat.matcher(value);
 		int count = 0;
 		while (mat.find()){
