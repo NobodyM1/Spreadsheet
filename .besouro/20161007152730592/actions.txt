@@ -151,3 +151,12 @@ UnitTestCaseAction 1475846964710 SpreadsheetTest.java OK
 UnitTestSessionAction 1475846964711 SpreadsheetTest.java OK
 EditAction 1475847005638 Spreadsheet.java 1059 3 8 0
 EditAction 1475847080229 SpreadsheetTest.java 259 1 4 1
+UnitTestCaseAction 1475847083123 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847083124 SpreadsheetTest.java FAIL
+RefactoringAction 1475847587216 SpreadsheetTest.java RENAME test()=>void test_() METHOD
+RefactoringAction 1475847592727 SpreadsheetTest.java RENAME test_()=>void test_123() METHOD
+RefactoringAction 1475847594736 SpreadsheetTest.java RENAME test_123()=>void test_123_() METHOD
+RefactoringAction 1475847595745 SpreadsheetTest.java RENAME test_123_()=>void test_123_e() METHOD
+RefactoringAction 1475847597254 SpreadsheetTest.java RENAME test_123_e()=>void test_123_equals() METHOD
+RefactoringAction 1475847599266 SpreadsheetTest.java RENAME test_123_equals()=>void test_123_equals_ FIELD
+EditAction 1475847607184 SpreadsheetTest.java 277 0 0 0
