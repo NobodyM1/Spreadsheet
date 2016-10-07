@@ -8,14 +8,14 @@ public class Spreadsheet {
 	String cell;
 	String value;
 	
-	HashMap map = new HashMap();
+	//HashMap map = new HashMap();
 	
 
-	public Object get(String cell) {
+	public String get(String cell) {
 		
-		Object result = map.get(cell);
+		//Object result = map.get(cell);
 		
-		return result;
+		return value;
 	}
 	
 	public void set(String cell, String value) {
@@ -55,7 +55,7 @@ public class Spreadsheet {
 			}
 		}
 		
-		map.put(this.cell, this.value);
+		//map.put(this.cell, this.value);
 	}
 	
 	public String evaluate(String cell) {

@@ -20,3 +20,9 @@ UnitTestSessionAction 1475848876352 SpreadsheetTest.java FAIL
 UnitTestCaseAction 1475848916936 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475848916937 SpreadsheetTest.java FAIL
 EditAction 1475848929665 SpreadsheetTest.java 1247 6 24 6
+CompilationAction 1475848932515 SpreadsheetTest.java
+RefactoringAction 1475848940204 Spreadsheet.java REMOVE map FIELD
+CompilationAction 1475848958259 SpreadsheetTest.java
+UnitTestCaseAction 1475848963536 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475848963537 SpreadsheetTest.java FAIL
+EditAction 1475848973553 Spreadsheet.java 1180 3 7 0
