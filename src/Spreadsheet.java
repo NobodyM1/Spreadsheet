@@ -19,6 +19,7 @@ public class Spreadsheet {
 		Matcher mat = pat.matcher(value);
 		int count = 0;
 		while (mat.find()){
+			System.out.println("Test");
 			count++;
 		}
 		
