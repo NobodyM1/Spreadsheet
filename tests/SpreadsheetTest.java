@@ -8,7 +8,10 @@ public class SpreadsheetTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Spreadsheet test = new Spreadsheet();
+		test.set("A1", "15");
+		String result = test.get("A1");
+		assertEquals("15", result);
 		
 	}
 
