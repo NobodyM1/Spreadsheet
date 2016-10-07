@@ -21,6 +21,7 @@ public class Spreadsheet {
 		while (mat.find()){
 			System.out.println("Test");
 			count++;
+			System.out.println("Test " + count);
 		}
 		
 		if(count < 2){
