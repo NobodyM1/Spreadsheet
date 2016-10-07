@@ -22,7 +22,6 @@ public class Spreadsheet {
 			count++;
 			
 		}
-		System.out.println("Test " + count);
 		if(count < 2){
 			System.out.println("Test " + count);
 			//Value must be numbers only
