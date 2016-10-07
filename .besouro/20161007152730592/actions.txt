@@ -160,3 +160,24 @@ RefactoringAction 1475847595745 SpreadsheetTest.java RENAME test_123_()=>void te
 RefactoringAction 1475847597254 SpreadsheetTest.java RENAME test_123_e()=>void test_123_equals() METHOD
 RefactoringAction 1475847599266 SpreadsheetTest.java RENAME test_123_equals()=>void test_123_equals_ FIELD
 EditAction 1475847607184 SpreadsheetTest.java 277 0 0 0
+CompilationAction 1475847608984 SpreadsheetTest.java
+CompilationAction 1475847608985 SpreadsheetTest.java
+CompilationAction 1475847608986 SpreadsheetTest.java
+CompilationAction 1475847617867 SpreadsheetTest.java
+UnitTestCaseAction 1475847620119 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847620120 SpreadsheetTest.test_123_equals_123 OK
+RefactoringAction 1475847628333 SpreadsheetTest.java ADD void test_123_equals_123()/2 METHOD
+RefactoringAction 1475847631345 SpreadsheetTest.java RENAME test_123_equals_123()/2=>void test__equals_123() METHOD
+RefactoringAction 1475847632358 SpreadsheetTest.java RENAME test__equals_123()=>void equals_123() METHOD
+RefactoringAction 1475847636368 SpreadsheetTest.java RENAME equals_123()=>void est_equals_123() METHOD
+RefactoringAction 1475847637380 SpreadsheetTest.java RENAME est_equals_123()=>void _equals_123() METHOD
+RefactoringAction 1475847644391 SpreadsheetTest.java RENAME _equals_123()=>void test__equals_123() METHOD
+RefactoringAction 1475847646907 SpreadsheetTest.java RENAME test__equals_123()=>void test_dou_equals_123() METHOD
+RefactoringAction 1475847649917 SpreadsheetTest.java RENAME test_dou_equals_123()=>void test_double_quo_equals_123() METHOD
+RefactoringAction 1475847651928 SpreadsheetTest.java RENAME test_double_quo_equals_123()=>void test_double_quoted_equals_123() METHOD
+RefactoringAction 1475847655938 SpreadsheetTest.java RENAME test_double_quoted_equals_123()=>void test_double_quoted_retur_123() METHOD
+RefactoringAction 1475847656948 SpreadsheetTest.java RENAME test_double_quoted_retur_123()=>void test_double_quoted_returns_123() METHOD
+RefactoringAction 1475847658962 SpreadsheetTest.java RENAME test_double_quoted_returns_123()=>void test_double_quoted_returns_() METHOD
+RefactoringAction 1475847661974 SpreadsheetTest.java RENAME test_double_quoted_returns_()=>void test_double_quoted_returns_quoted() METHOD
+RefactoringAction 1475847664486 SpreadsheetTest.java RENAME test_double_quoted_returns_quoted()=>void test_double_quoted_returns_quoted_text() METHOD
+EditAction 1475847675616 SpreadsheetTest.java 475 2 8 2
