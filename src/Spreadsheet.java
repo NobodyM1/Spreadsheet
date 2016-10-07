@@ -32,10 +32,8 @@ public class Spreadsheet {
 			if(value.length() != lenght){
 				//Error
 				this.value = "#Error";
-				System.out.println("Test " + this.value);
+				return;
 			}
-			
-			
 			
 			this.value = value;
 			
