@@ -37,4 +37,12 @@ public class SpreadsheetTest {
 		String result = test.get("A1");
 		assertEquals("#Error", result);
 	}
+	
+	@Test
+	public void test_Simple_Formulas() {
+		Spreadsheet test = new Spreadsheet();
+		test.set("A1", "='test");
+		String result = test.get("A1");
+		assertEquals("test", result);
+	}
 }

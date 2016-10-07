@@ -194,3 +194,12 @@ RefactoringAction 1475847748110 SpreadsheetTest.java RENAME test_single_quoted_r
 RefactoringAction 1475847749620 SpreadsheetTest.java RENAME test__quoted_returns_error()=>void test_5A_quoted_returns_error() METHOD
 EditAction 1475847759044 SpreadsheetTest.java 861 4 16 4
 EditAction 1475847762349 SpreadsheetTest.java 860 4 16 4
+UnitTestCaseAction 1475847765202 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847765203 SpreadsheetTest.java OK
+RefactoringAction 1475847791160 SpreadsheetTest.java ADD void test_single_quoted_returns_error()/2 METHOD
+RefactoringAction 1475847799672 SpreadsheetTest.java RENAME test_single_quoted_returns_error()/2=>void test_doulbe_quoted_returns_error() METHOD
+RefactoringAction 1475847810184 SpreadsheetTest.java RENAME test_doulbe_quoted_returns_error()=>void test__returns_error() METHOD
+RefactoringAction 1475847813698 SpreadsheetTest.java RENAME test__returns_error()=>void test_Simple_returns_error() METHOD
+RefactoringAction 1475847818211 SpreadsheetTest.java RENAME test_Simple_returns_error()=>void test_Simple_Formulas_returns_error() METHOD
+RefactoringAction 1475847821722 SpreadsheetTest.java RENAME test_Simple_Formulas_returns_error()=>void test_Simple_Formulas() METHOD
+EditAction 1475847829876 SpreadsheetTest.java 1044 5 20 5
