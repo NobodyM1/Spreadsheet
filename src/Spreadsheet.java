@@ -16,7 +16,7 @@ public class Spreadsheet {
 		if(0 > cell.length() && cell.length() > 2){
 			//Error
 		}
-		if(value.matches("^\'.*\'") == false && value.endsWith("\'") == false){
+		if(value.matches("^\'.*\'") == false && value.endsWith("\'") == true){
 			//Value must be numbers only
 			Pattern p = Pattern.compile("-?\\d+");
 			Matcher m = p.matcher(value);
