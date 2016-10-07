@@ -16,7 +16,14 @@ public class Spreadsheet {
 		if(0 > cell.length() && cell.length() > 2){
 			//Error
 		}
-		if(value.contains("''") == false){
+		Pattern pat = Pattern.compile(" ' ");
+		Matcher mat = pat.matcher(value);
+		int count = 0;
+		while (mat.find()){
+			count++;
+		}
+		
+		if(count != 2){
 			//Value must be numbers only
 			Pattern p = Pattern.compile("-?\\d+");
 			Matcher m = p.matcher(value);
