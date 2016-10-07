@@ -12,8 +12,6 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		int lenght = 0;
-		
 		// Count how many ' can be found in value
 		Pattern pat = Pattern.compile("'");
 		Matcher mat = pat.matcher(value);
