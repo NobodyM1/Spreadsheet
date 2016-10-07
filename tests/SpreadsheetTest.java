@@ -29,4 +29,12 @@ public class SpreadsheetTest {
 		String result = test.get("A1");
 		assertEquals("#Error", result);
 	}
+	
+	@Test
+	public void test_5A_quoted_returns_error() {
+		Spreadsheet test = new Spreadsheet();
+		test.set("A1", "'5A");
+		String result = test.get("A1");
+		assertEquals("#Error", result);
+	}
 }
