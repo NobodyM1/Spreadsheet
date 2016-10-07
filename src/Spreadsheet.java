@@ -14,14 +14,14 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		int lenght = 0;
 		
-		
+		// Count how many ' can be found in value
 		Pattern pat = Pattern.compile("'");
 		Matcher mat = pat.matcher(value);
 		int count = 0;
 		while (mat.find()){
 			count++;
-			
 		}
+		
 		if(count < 2){
 			//Value must be numbers only
 			Pattern p = Pattern.compile("-?\\d+");
@@ -29,9 +29,9 @@ public class Spreadsheet {
 			while (m.find()){
 				lenght++;
 			}
-			System.out.println("Test " + lenght);
 			if(value.length() != lenght){
 				//Error
+				System.out.println("Test " + lenght);
 				this.value = "#Error";
 				return;
 			}
