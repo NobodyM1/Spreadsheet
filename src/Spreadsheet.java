@@ -15,7 +15,7 @@ public class Spreadsheet {
 		int lenght = 0;
 		
 		
-		Pattern pat = Pattern.compile("e");
+		Pattern pat = Pattern.compile("a");
 		Matcher mat = pat.matcher(value);
 		int count = 0;
 		while (mat.find()){
