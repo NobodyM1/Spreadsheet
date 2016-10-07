@@ -3,8 +3,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Spreadsheet {
-	
-	// Must be pairs, 
+	 
 	String cell;
 	String value;
 	
