@@ -233,3 +233,6 @@ RefactoringAction 1475847971357 SpreadsheetTest.java ADD void test_Simple_Formul
 RefactoringAction 1475847974869 SpreadsheetTest.java RENAME test_Simple_Formulas()/2=>void test_Simple_Formulas_With() METHOD
 RefactoringAction 1475847977382 SpreadsheetTest.java RENAME test_Simple_Formulas_With()=>void test_Simple_Formulas_With_Errors() METHOD
 EditAction 1475847984988 SpreadsheetTest.java 1243 6 24 6
+UnitTestCaseAction 1475847987996 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847987997 SpreadsheetTest.java OK
+EditAction 1475848029836 SpreadsheetTest.java 1247 6 24 6
