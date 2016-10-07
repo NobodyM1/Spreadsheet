@@ -79,3 +79,12 @@ UnitTestSessionAction 1475846143123 SpreadsheetTest.java FAIL
 EditAction 1475846153850 Spreadsheet.java 1006 3 8 0
 EditAction 1475846160537 Spreadsheet.java 998 3 8 0
 EditAction 1475846177108 Spreadsheet.java 1008 3 8 0
+UnitTestCaseAction 1475846179750 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846179751 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475846182835 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846182837 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475846183897 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846183898 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475846184880 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846184882 SpreadsheetTest.java FAIL
+EditAction 1475846199882 Spreadsheet.java 1012 3 8 0
